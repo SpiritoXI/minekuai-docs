@@ -1,0 +1,149 @@
+{
+  "musicPlayer": {
+    "autoScan": {
+      "enabled": true,
+      "onStartup": true,
+      "scanModes": ["common", "pattern", "deep"],
+      "defaultMode": "common",
+      "maxFiles": 1000,
+      "batchSize": 10,
+      "delay": 100
+    },
+    "musicFiles": [
+      {
+        "filename": "jiuwanzi.mp3",
+        "title": "九万字",
+        "artist": "黄诗扶",
+        "album": "单曲",
+        "cover": "jiuwanzi.jpg",
+        "enabled": true
+      },
+      {
+        "filename": "黄诗扶 - 九万字.mp3",
+        "title": "九万字",
+        "artist": "黄诗扶",
+        "album": "单曲",
+        "cover": "黄诗扶 - 九万字.jpg",
+        "enabled": true
+      },
+      {
+        "filename": "theme-song.mp3",
+        "title": "主题歌",
+        "artist": "网站音乐",
+        "album": "背景音乐",
+        "cover": "theme-song.jpg",
+        "enabled": true
+      },
+      {
+        "filename": "background-music-1.mp3",
+        "title": "背景音乐 1",
+        "artist": "背景音乐",
+        "album": "环境音乐",
+        "cover": "background-music-1.jpg",
+        "enabled": true
+      },
+      {
+        "filename": "test.mp3",
+        "title": "测试音乐",
+        "artist": "测试",
+        "album": "测试专辑",
+        "cover": "test.jpg",
+        "enabled": true
+      }
+    ],
+    "scanPatterns": {
+      "common": {
+        "chinese": [
+          "九万字", "稻香", "青花瓷", "夜曲", "告白气球", "简单爱", "晴天",
+          "听妈妈的话", "可爱女人", "双截棍", "东风破", "发如雪", "千里之外",
+          "菊花台", "本草纲目", "霍元甲", "龙拳", "爱在西元前", "安静", "回到过去"
+        ],
+        "english": [
+          "love-story", "shape-of-you", "someone-like-you", "hello", "rolling-in-the-deep",
+          "bad-guy", "blinding-lights", "watermelon-sugar", "levitating", "good-4-u",
+          "stay", "industry-baby", "heat-waves", "shivers", "easy-on-me"
+        ],
+        "background": [
+          "background", "bgm", "theme", "ambient", "chill", "lofi", "piano",
+          "guitar", "instrumental", "classical", "jazz", "electronic", "relaxing"
+        ],
+        "gaming": [
+          "minecraft", "game", "zelda", "mario", "pokemon", "final-fantasy",
+          "undertale", "terraria", "stardew-valley", "animal-crossing"
+        ],
+        "generic": [
+          "music", "song", "track", "audio", "sound", "melody", "tune",
+          "demo", "sample", "test", "example"
+        ]
+      },
+      "artists": {
+        "chinese": [
+          "周杰伦", "林俊杰", "邓紫棋", "王力宏", "陈奕迅", "张学友", "刘德华",
+          "李荣浩", "薛之谦", "毛不易", "华晨宇", "张碧晨", "黄诗扶"
+        ],
+        "english": [
+          "taylor-swift", "ed-sheeran", "adele", "billie-eilish", "ariana-grande",
+          "bruno-mars", "the-weeknd", "dua-lipa", "olivia-rodrigo", "justin-bieber"
+        ]
+      },
+      "numbers": {
+        "range": [1, 100],
+        "formats": ["1", "01", "001"]
+      },
+      "prefixes": ["song", "track", "music", "audio", "bgm", "歌曲", "音乐"],
+      "suffixes": ["mix", "remix", "version", "edit", "demo", "live", "acoustic"]
+    },
+    "folders": {
+      "music": "/music/",
+      "covers": "/music/covers/",
+      "playlists": "/music/playlists/"
+    },
+    "formats": {
+      "audio": [".mp3", ".wav", ".ogg", ".m4a", ".aac", ".flac", ".wma"],
+      "covers": [".jpg", ".jpeg", ".png", ".webp", ".avif"]
+    },
+    "player": {
+      "autoPlay": false,
+      "defaultVolume": 0.7,
+      "crossfade": false,
+      "repeatMode": "none",
+      "shuffleMode": false,
+      "showCoverAnimation": true,
+      "showProgressBar": true,
+      "showVolumeControl": true,
+      "showPlaylist": true,
+      "enableKeyboardShortcuts": true
+    },
+    "interface": {
+      "theme": "auto",
+      "primaryColor": "#10b981",
+      "compactMode": false,
+      "showFileNames": true,
+      "showDuration": true,
+      "maxPlaylistHeight": "300px",
+      "coverImageSize": "80px"
+    },
+    "shortcuts": {
+      "togglePlay": " ",
+      "nextSong": "ArrowRight",
+      "previousSong": "ArrowLeft",
+      "volumeUp": "ArrowUp",
+      "volumeDown": "ArrowDown",
+      "toggleMute": "m",
+      "toggleShuffle": "s",
+      "toggleRepeat": "r",
+      "refresh": "f5",
+      "minimize": "h"
+    },
+    "messages": {
+      "noMusicFound": "📁 未发现音乐文件",
+      "scanningMusic": "正在自动扫描音乐文件...",
+      "noSearchResults": "🔍 没有找到匹配的音乐",
+      "folderHint": "请将音乐文件放入 /public/music/ 文件夹",
+      "supportedFormats": "支持格式：MP3, WAV, OGG, M4A, AAC, FLAC",
+      "searchPlaceholder": "搜索歌曲或艺术家...",
+      "scanComplete": "扫描完成",
+      "scanFailed": "扫描失败"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+.VPHome .VPFeatures .VPFeature {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 24px 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.VPHome .VPFeatures .VPFeature:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+  border-color: #e0e0e0;
+}
+
+.VPHome .VPFeatures .VPFeature .icon {
+  background-color: #f5f7fa;
+  border-radius: 50%;
+  padding: 12px;
+  margin-bottom: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease;
+}
+
+.VPHome .VPFeatures .VPFeature:hover .icon {
+  background-color: #eef2f8;
+}
+
+.VPHome .VPFeatures .VPFeature h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.VPHome .VPFeatures .VPFeature p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .VPHome .VPFeatures {
+    gap: 12px;
+  }
+  .VPHome .VPFeatures .VPFeature {
+    padding: 20px 16px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .VPHome .VPFeatures .VPFeature {
+    background: #23272f;
+    border: 1px solid #333843;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  }
+  .VPHome .VPFeatures .VPFeature:hover {
+    box-shadow: 0 12px 32px rgba(0,0,0,0.5);
+    border-color: #444a58;
+  }
+  .VPHome .VPFeatures .VPFeature .icon {
+    background-color: #2a2e37;
+  }
+  .VPHome .VPFeatures .VPFeature:hover .icon {
+    background-color: #23272f;
+  }
+  .VPHome .VPFeatures .VPFeature h2 {
+    color: #e6e6e6;
+  }
+  .VPHome .VPFeatures .VPFeature p {
+    color: #b0b8c9;
+  }
+}
+
+html.dark .VPHome .VPFeatures .VPFeature {
+  background: #23272f;
+  border: 1px solid #333843;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+html.dark .VPHome .VPFeatures .VPFeature:hover {
+  box-shadow: 0 12px 32px rgba(0,0,0,0.5);
+  border-color: #444a58;
+}
+html.dark .VPHome .VPFeatures .VPFeature .icon {
+  background-color: #2a2e37;
+}
+html.dark .VPHome .VPFeatures .VPFeature:hover .icon {
+  background-color: #23272f;
+}
+html.dark .VPHome .VPFeatures .VPFeature h2 {
+  color: #e6e6e6;
+}
+html.dark .VPHome .VPFeatures .VPFeature p {
+  color: #b0b8c9;
+}
+

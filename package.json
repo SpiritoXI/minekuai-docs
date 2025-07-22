@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@theojs/lumen": "^6.1.1",
+    "flexsearch": "^0.7.43",
+    "vitepress": "^1.6.3",
+    "vitepress-plugin-search": "^1.0.4-alpha.22"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "start": "npm run docs:dev",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.11.1",
+    "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.11.1",
+    "@nolebase/vitepress-plugin-inline-link-preview": "^2.11.1",
+    "@nolebase/vitepress-plugin-page-properties": "^2.11.1",
+    "@shikijs/vitepress-twoslash": "^1.24.4",
+    "canvas-confetti": "^1.9.3",
+    "markdown-it-mathjax3": "^4.3.2",
+    "markdown-it-task-lists": "^2.1.1",
+    "mermaid": "^11.4.0",
+    "vitepress": "^1.3.4",
+    "vitepress-markdown-timeline": "^1.2.1",
+    "vitepress-plugin-codeblocks-fold": "^1.2.35",
+    "vitepress-plugin-group-icons": "^1.3.2",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  }
+}
