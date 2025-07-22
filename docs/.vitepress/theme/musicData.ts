@@ -104,12 +104,12 @@ export const playlist: Track[] = [
     title: '九万字',
     artist: '黄诗扶',
     album: '单曲',
-    url: '/music/黄诗扶 - 九万字.mp3',
+    url: '/music/黄诗扶 - 九万字.flac',
     cover: '/music/covers/jiuwanzi.jpg',
     //duration: '3:52',
     formats: {
-      mp3:'/music/黄诗扶 - 九万字.mp3'
-      // flac: '/music/黄诗扶 - 九万字.flac'  // 高质量选项，仅在完全支持时使用
+      // mp3:'/music/黄诗扶 - 九万字.mp3',
+      flac: '/music/黄诗扶 - 九万字.flac'  // 高质量选项，仅在完全支持时使用
       // 注意：如果你的FLAC文件有问题，可以暂时注释掉这行
       // flac: '/music/黄诗扶 - 九万字.flac'
     }
@@ -119,7 +119,7 @@ export const playlist: Track[] = [
     title: 'The truth that you leave',
     artist: 'Pianoboy高至豪',
     album: '单曲',
-    url: '/music/Pianoboy高至豪 - The truth that you leave.mp3',
+    url: '/music/Pianoboy高至豪 - The truth that you leave.flac',
     cover: '/music/covers/thetruththatyouleave.jpg',
     //duration: '3:37'
   },
@@ -144,7 +144,7 @@ export const playlist: Track[] = [
     title: 'River Flows In You',
     artist: 'Martin Ermen',
     album: '单曲',
-    url: '/music/Martin Ermen - River Flows In You.mp3',
+    url: '/music/Martin Ermen - River Flows In You.flac',
     cover: '/music/covers/RiverFlowsInYou.jpg',
   },
   {
@@ -152,7 +152,7 @@ export const playlist: Track[] = [
     title: '第57次取消发送',
     artist: '菲菲公主',
     album: '单曲',
-    url: '/music/菲菲公主 - 第57次取消发送.mp3',
+    url: '/music/菲菲公主 - 第57次取消发送.flac',
     cover: '/music/covers/第57次取消发送.jpg',
   },
   //{
