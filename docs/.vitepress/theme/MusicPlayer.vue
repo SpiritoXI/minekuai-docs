@@ -160,6 +160,11 @@ const toggleExpanded = () => {
   isExpanded.value = !isExpanded.value
 }
 
+const getRandomTrackIndex = (): number => {
+  if (playlist.length === 0) return 0
+  return Math.floor(Math.random() * playlist.length)
+}
+
 const togglePlay = async () => {
   if (!audio.value) return
   audio.value.playbackRate = 1.0
@@ -398,6 +403,10 @@ watch(volume, (newVolume) => {
 onMounted(() => {
   if (audio.value) {
     audio.value.volume = volume.value
+
+    const randomIndex = getRandomTrackIndex()
+    currentTrackIndex.value = randomIndex
+    // console.log(`随机选择歌曲: ${playlist[randomIndex]?.title || '未知'}`)
     
     const initialAudioUrl = getBestAudioFormat(currentTrack.value)
     audio.value.src = initialAudioUrl
