@@ -155,22 +155,22 @@ export const playlist: Track[] = [
     url: '/music/菲菲公主 - 第57次取消发送.flac',
     cover: '/music/covers/第57次取消发送.jpg',
   },
-  //{
-    //id: '7',
-    //title: '晴天',
-    //artist: '周杰伦',
-    //album: '叶惠美',
-    //url: '/music/sunny-day.mp3',
-    //cover: '/music/covers/sunny-day.jpg',
-  //},
-  //{
-    //id: '8',
-    //title: '七里香',
-    //artist: '周杰伦',
-    //album: '七里香',
-    //url: '/music/common-jasmin-orange.mp3',
-    //cover: '/music/covers/common-jasmin-orange.jpg',
-  //}
+  {
+    id: '7',
+    title: '将月亮藏进躯体',
+    artist: '庄东茹（豆芽鱼）',
+    album: '单曲',
+    url: '/music/庄东茹（豆芽鱼） - 将月亮藏进躯体.flac',
+    cover: '/music/covers/将月亮藏进躯体.jpg',
+  },
+  {
+    id: '8',
+    title: '属于你 (女版)',
+    artist: '覆予',
+    album: '单曲',
+    url: '/music/覆予 - 属于你 (女版).flac',
+    cover: '/music/covers/属于你.jpg',
+  }
 ]
 
 // 你可以根据实际的音乐文件来修改这个列表
