@@ -170,7 +170,23 @@ export const playlist: Track[] = [
     album: '单曲',
     url: '/music/覆予 - 属于你 (女版).flac',
     cover: '/music/covers/属于你.jpg',
-  }
+  },
+  {
+    id: '9',
+    title: '茶花开了',
+    artist: '王睿卓',
+    album: '单曲',
+    url: '/music/王睿卓 - 茶花开了.flac',
+    cover: '/music/covers/属于你.jpg',
+  },
+  {
+    id: '10',
+    title: '只若初见',
+    artist: '张德伊玲',
+    album: '单曲',
+    url: '/music/张德伊玲 - 只若初见.flac',
+    cover: '/music/covers/属于你.jpg',
+  },
 ]
 
 // 你可以根据实际的音乐文件来修改这个列表
